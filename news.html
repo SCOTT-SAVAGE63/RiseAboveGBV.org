@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Latest news, updates, and stories from Rise Above GBVF">
+    <title>News & Updates - Rise Above GBVF</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Rise Above GBVF</h1>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="news.html" class="active">News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h2 class="page-title">News & Updates</h2>
+            <p class="page-subtitle">Stay informed about our latest work and impact</p>
+        </div>
+    </section>
+
+    <!-- Search and Filter -->
+    <section class="search-filter-section">
+        <div class="container">
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search articles...">
+                <button id="search-btn" class="btn btn-primary">Search</button>
+            </div>
+            
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="success-stories">Success Stories</button>
+                <button class="category-btn" data-category="events">Events</button>
+                <button class="category-btn" data-category="awareness">Awareness</button>
+                <button class="category-btn" data-category="partnerships">Partnerships</button>
+                <button class="category-btn" data-category="announcements">Announcements</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="blog-posts-section">
+        <div class="container">
+            <h2 class="section-title">Featured Story</h2>
+            <div class="blog-grid">
+                <div class="blog-post glass-effect featured-post" data-category="success-stories">
+                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600" alt="Community workshop" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 November 15, 2025</span>
+                            <span>📂 Success Stories</span>
+                        </div>
+                        <h3>Community Workshop Reaches 200 Participants: A Milestone Achievement</h3>
+                        <p class="blog-excerpt">Our recent community workshop on preventing gender-based violence exceeded all expectations, bringing together over 200 community members, local leaders, and survivors. The event featured interactive sessions, educational presentations, and powerful testimonials that are already creating ripples of change throughout Phoenix and surrounding areas.</p>
+                        <a href="#" class="read-more">Read Full Story →</a>
+                        <div class="social-links" style="margin-top: 1.5rem; justify-content: flex-start;">
+                            <span style="color: var(--color-white); margin-right: 1rem;">Share:</span>
+                            <a href="#" aria-label="Share on Facebook">📘</a>
+                            <a href="#" aria-label="Share on Twitter">🐦</a>
+                            <a href="#" aria-label="Share on LinkedIn">💼</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Posts -->
+    <section class="blog-posts-section" style="padding-top: 2rem;">
+        <div class="container">
+            <h2 class="section-title">Latest Updates</h2>
+            <div class="blog-grid">
+                <!-- Post 1 -->
+                <div class="blog-post glass-effect" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=400" alt="Fundraising event" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 November 10, 2025</span>
+                            <span>📂 Events</span>
+                        </div>
+                        <h3>Annual Fundraising Gala Announced</h3>
+                        <p class="blog-excerpt">Join us for our first annual fundraising gala on December 15th, 2025. This special evening will celebrate our achievements and raise funds to expand our services. Details and ticket information coming soon.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 2 -->
+                <div class="blog-post glass-effect" data-category="partnerships">
+                    <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=400" alt="Partnership signing" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 November 5, 2025</span>
+                            <span>📂 Partnerships</span>
+                        </div>
+                        <h3>New Partnership with Local Hospital</h3>
+                        <p class="blog-excerpt">We're thrilled to announce a new partnership with Mahatma Gandhi Hospital to provide enhanced medical support services for GBVF survivors. This collaboration will ensure comprehensive care for those who need it most.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 3 -->
+                <div class="blog-post glass-effect" data-category="success-stories">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400" alt="Success story" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 October 28, 2025</span>
+                            <span>📂 Success Stories</span>
+                        </div>
+                        <h3>From Survivor to Entrepreneur: A Story of Hope</h3>
+                        <p class="blog-excerpt">Meet Sarah (name changed for privacy), who participated in our skills training program and recently launched her own catering business. Her journey from survivor to successful entrepreneur inspires us all.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 4 -->
+                <div class="blog-post glass-effect" data-category="awareness">
+                    <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=400" alt="Awareness campaign" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 October 20, 2025</span>
+                            <span>📂 Awareness</span>
+                        </div>
+                        <h3>16 Days of Activism Campaign Launch</h3>
+                        <p class="blog-excerpt">We're gearing up for the international 16 Days of Activism Against Gender-Based Violence campaign. Learn about our planned activities and how you can participate in making a difference this November and December.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 5 -->
+                <div class="blog-post glass-effect" data-category="announcements">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400" alt="Training session" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 October 12, 2025</span>
+                            <span>📂 Announcements</span>
+                        </div>
+                        <h3>Volunteer Training Sessions Scheduled</h3>
+                        <p class="blog-excerpt">New volunteer training sessions have been scheduled for November. If you've been considering volunteering with us, now is the perfect time to join our team. Registration is open and spaces are limited.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 6 -->
+                <div class="blog-post glass-effect" data-category="events">
+                    <img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=400" alt="Community meeting" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 October 5, 2025</span>
+                            <span>📂 Events</span>
+                        </div>
+                        <h3>Monthly Support Group Meetings</h3>
+                        <p class="blog-excerpt">Our monthly support group meetings continue to provide a safe space for survivors to share, heal, and support one another. Meetings are held on the first Saturday of each month. New members are always welcome.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 7 -->
+                <div class="blog-post glass-effect" data-category="success-stories">
+                    <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=400" alt="Empowerment" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 September 28, 2025</span>
+                            <span>📂 Success Stories</span>
+                        </div>
+                        <h3>100 Women Empowered Through Skills Training</h3>
+                        <p class="blog-excerpt">We've reached an incredible milestone: 100 women have completed our skills training and empowerment programs. These graduates are now equipped with marketable skills and renewed confidence to build better futures.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 8 -->
+                <div class="blog-post glass-effect" data-category="awareness">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400" alt="School program" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 September 15, 2025</span>
+                            <span>📂 Awareness</span>
+                        </div>
+                        <h3>School Education Program Reaches 500 Students</h3>
+                        <p class="blog-excerpt">Our school-based education program has reached over 500 students across Phoenix, teaching young people about healthy relationships, consent, and bystander intervention. Prevention starts with education.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+
+                <!-- Post 9 -->
+                <div class="blog-post glass-effect" data-category="partnerships">
+                    <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=400" alt="Government meeting" class="blog-image">
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span>📅 September 1, 2025</span>
+                            <span>📂 Partnerships</span>
+                        </div>
+                        <h3>Collaboration with Local Government Expands</h3>
+                        <p class="blog-excerpt">Our partnership with local government agencies continues to grow stronger, enabling us to advocate for policy changes and secure additional resources for GBVF prevention and survivor support services.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content glass-effect">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter to receive the latest news, stories, and updates directly in your inbox.</p>
+                <form class="newsletter-form" id="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <div class="form-message" id="newsletter-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Rise Above GBVF</h3>
+                    <p>Creating a society free from gender-based violence and femicide.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="donate.html">Donate</a></li>
+                        <li><a href="volunteer.html">Volunteer</a></li>
+                        <li><a href="news.html">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Phone: 074 067 7801</p>
+                    <p>Shastripark, Phoenix</p>
+                    <p>KwaZulu Natal, South Africa</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rise Above GBVF. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
